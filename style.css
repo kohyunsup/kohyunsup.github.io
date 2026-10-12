@@ -98,8 +98,9 @@ li { margin-bottom: 8px; }
 
 .shelf {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 28px 22px;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  gap: 24px 18px;
+  max-width: 480px;
   margin: 32px 0 0;
   padding: 0;
   list-style: none;
@@ -247,5 +248,5 @@ footer p { margin: 0 0 6px; }
   nav a { margin-right: 16px; }
   .portrait { float: none; width: 150px; margin: 0 0 20px; }
   .cover { float: none; width: 110px; margin: 0 0 18px; }
-  .shelf { grid-template-columns: repeat(2, 1fr); gap: 28px 18px; }
+  .shelf { grid-template-columns: repeat(4, 1fr); gap: 20px 12px; }
 }
